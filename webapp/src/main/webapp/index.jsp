@@ -1,5 +1,6 @@
 <h1> Hello, Welcome to Valaxy Technologies !!! </h1>
 <h1> Hello, This is sunil !!! </h1>
-<%
-    out.print(System.getenv("hostname -f"));
-%>
+Map<String, String> env = System.getenv();
+
+  // get PATH environment variable
+  String path = System.getenv("PATH");
