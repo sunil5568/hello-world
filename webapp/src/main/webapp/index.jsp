@@ -1,6 +1,5 @@
 <h1> Hello, Welcome to Valaxy Technologies !!! </h1>
 <h1> Hello, This is sunil !!! </h1>
- echo "sunil pal"
 
 <html>
 <head><title>First JSP</title></head>
@@ -18,5 +17,6 @@
     }
   %>
   <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+ echo "sunil pal"
 </body>
 </html>
